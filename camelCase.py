@@ -3,6 +3,9 @@ message = 'Awesome camelcase progam!!'
 stars = '*' * len(message)
 print(f'\n{stars} \n{message} \n{stars}')
 
+#instructions
+print('Enter a sentence and this program will convert it to camelcase.')
+
 #Gets string and sets all letters to lowercase
 sentence = input("Type sentence: ")
 sentence = sentence.lower()
